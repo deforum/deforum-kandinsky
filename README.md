@@ -32,8 +32,11 @@ In the past few years, there has been a marked increase in the popularity of gen
 <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/ca3b3f41-ab71-48c5-a0e5-64bcc41475b7"/>
 <p>
 The idea of animating a picture is quite simple: from the original 2D image we obtain a pseudo-3D scene and then simulate a camera flyover of this scene. The pseudo-3D effect occurs due to the human eye’s perception of motion dynamics through spatial transformations. Using various motion animation mechanics, we get a sequence of frames that look like they were shot with a first-person camera. The process of creating such a set of personnel is divided into 2 stages:
-creating a pseudo-3D scene and simulating a camera flyby (obtaining successive frames);
-application of the image-to-image approach for additional correction of the resulting images.
+<ol>
+  <li>creating a pseudo-3D scene and simulating a camera flyby (obtaining successive frames);</li>
+  <li>application of the image-to-image approach for additional correction of the resulting images.</li>
+</ol>
+
 </p>
 
 ## Getting Started
