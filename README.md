@@ -5,28 +5,36 @@
     </a>
 </p> 
 
+## Examples
+<p>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/ec1eebb9-f29d-420b-b4d6-30fb995a877c"/>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/084f2bd6-ff45-4e45-9ca1-4842621c6677"/>
+</p>
+<p>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/e828079e-5f6b-4fb9-9838-74b22c57ed0d"/>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/92811a89-d6d0-4034-aceb-b57afdb86f81"/>
+</p>
+<p>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/2f340b78-a081-429f-9eec-6db640f76281"/>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/9bdbc6c3-328a-41a1-adb4-f6776bb71f40"/>
+</p>
+<p>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/8825740d-91d8-4908-8d03-ec1df8695f45"/>
+    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/103936ef-4936-4a77-ac06-86009a5fda62"/>
+</p>      
+
 ## Introduction
 <p>
 In the past few years, there has been a marked increase in the popularity of generative models that utilize various data modalities. One of the most challenging undertakings in this regard is synthesizing videos from text, which is both time-consuming and resource-intensive. The core of proposed solution/animation approach is Kandinsky extension with Deforum features. This leads to new generative opportunities of text2image model.
 </p>
 
-## Examples
+## Description
+<img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/ca3b3f41-ab71-48c5-a0e5-64bcc41475b7"/>
 <p>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/ec1eebb9-f29d-420b-b4d6-30fb995a877c" width="400" height="400"/>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/084f2bd6-ff45-4e45-9ca1-4842621c6677" width="400" height="400"/>
+The idea of animating a picture is quite simple: from the original 2D image we obtain a pseudo-3D scene and then simulate a camera flyover of this scene. The pseudo-3D effect occurs due to the human eye’s perception of motion dynamics through spatial transformations. Using various motion animation mechanics, we get a sequence of frames that look like they were shot with a first-person camera. The process of creating such a set of personnel is divided into 2 stages:
+creating a pseudo-3D scene and simulating a camera flyby (obtaining successive frames);
+application of the image-to-image approach for additional correction of the resulting images.
 </p>
-<p>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/e828079e-5f6b-4fb9-9838-74b22c57ed0d" width="400" height="400"/>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/92811a89-d6d0-4034-aceb-b57afdb86f81" width="400" height="400"/>
-</p>
-<p>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/2f340b78-a081-429f-9eec-6db640f76281" width="400" height="400"/>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/9bdbc6c3-328a-41a1-adb4-f6776bb71f40" width="400" height="400"/>
-</p>
-<p>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/8825740d-91d8-4908-8d03-ec1df8695f45" width="400" height="400"/>
-    <img src="https://github.com/ai-forever/deforum-kandinsky/assets/69383296/103936ef-4936-4a77-ac06-86009a5fda62" width="400" height="400"/>
-</p>      
 
 ## Getting Started
 
